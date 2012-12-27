@@ -39,6 +39,12 @@ And add the following line to that file and save.
 
 60 is for the news to be read every 60minutes.
 
+Check if the crontab is successfully added by
+
+    crontab -l
+
+You will get to hear news every hour.
+
 
 ## Created By ##
 
