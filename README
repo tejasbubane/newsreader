@@ -1,8 +1,0 @@
-# python news reader
-# uses espeak and mbrola voice en1
-# uses xml from indianexpress
-
-
-TODO:
-1. readme detailed
-2. shell script for config
