@@ -12,11 +12,15 @@ IndianExpress for the latest news, uses espeak to read out loud that news feed.
 
     espeak, mbrola and mbrola-en1 voice, pyttsx
 
+
+## TODO ##
+
 Run the install.sh file once before running the script to meet all
-requirements. (this is a onetiime run)
+requirements. (this is a onetime run)
 
 Finally run read_news.py each time you want to listen to the news or
 follow the tip below.
+
 
 ## Tip ##
 
