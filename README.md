@@ -1,7 +1,8 @@
 ## What is newsreader? ##
 
-Newsreader is a python script that fetches the RSS feeds from IndianExpress for the latest news,
-uses espeak to read out loud that news feed.
+Newsreader is a python script that fetches the RSS feeds from
+IndianExpress for the latest news, uses espeak to read out loud that news feed.
+
 
     Voice used: mbrola-en1
     News courtesy: RSS feeds by IndianExpress
@@ -9,18 +10,26 @@ uses espeak to read out loud that news feed.
 
 ## Requirements ##
 
-espeak, mbrola and mbrola-en1 voice, pyttsx
+    espeak, mbrola and mbrola-en1 voice, pyttsx
 
-Run the install.sh file once before running the script to meet all requirements.
+Run the install.sh file once before running the script to meet all
+requirements. (this is a onetiime run)
+
+Finally run read_news.py each time you want to listen to the news or
+follow the tip below.
 
 ## Tip ##
 
 You can use crontab to schedule the newsreader to read news every hour.
-run the following command:
+First make the read_news.py executable by:
+
+    chmod +x read_news.py
+
+Then run the following command:
 
     EDITOR="gedit" crontab -e
 
-Then add the following line to that file and save.
+And add the following line to that file and save.
 
      */60 * * * * /home/tejas/espeak.py
 
