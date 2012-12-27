@@ -40,8 +40,16 @@ And add the following line to that file and save.
 60 is for the news to be read every 60minutes.
 
 
+## Created By ##
+
+Tejas Bubane ( tejasbubane@gmail.com )
+
+Any suggestions/bugs feel free to mail me or tweet @tejas_bubane.
+
+
 ## Licence ##
 
-Covered under GNU-GPL v3.0.
-NO WARRANTY IS PROVIDED.
+    Covered under GNU-GPL v3.0.
+    NO WARRANTY IS PROVIDED.
+
 More info at http://www.gnu.org/licenses/gpl.txt
