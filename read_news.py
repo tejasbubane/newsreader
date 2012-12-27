@@ -4,8 +4,8 @@ from xml.dom import minidom
 
 engine = pyttsx.init("espeak", False)
 engine.setProperty('voice', 'mb-en1')
-engine.setProperty('rate', 130)
-engine.say("Hello. News of the Hour")
+engine.setProperty('rate', 110)
+engine.say("Hello. Here are the latest news")
 
 page = urllib2.urlopen("http://syndication.indianexpress.com/rss/latest-news.xml").read()
 news = minidom.parseString(page)
